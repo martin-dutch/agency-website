@@ -39,7 +39,7 @@ HomePage.getLayout = function getLayout(page: React.ReactElement) {
 
 export default function HomePage() {
   return (
-    <Page title="The starting point for your next project">
+    <Page title="Build with Linkway">
       <HomeHero />
 
       <ContentStyle>
