@@ -8,7 +8,6 @@ export { default as MapDynamicStyling } from './dynamic-styling';
 export { default as MapDraggableMarkers } from './draggable-markers';
 export { default as MapViewportAnimation } from './viewport-animation';
 
-export { default as MapDeckglOverlay } from './MapDeckglOverlay';
 export { default as MapMarkersPopups } from './MapMarkersPopups';
 export { default as MapGeoJSONAnimation } from './MapGeoJSONAnimation';
 export { default as MapHighlightByFilter } from './MapHighlightByFilter';

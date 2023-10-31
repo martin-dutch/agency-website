@@ -27,9 +27,6 @@ const MapZoomToBounds = dynamic(
 const MapMarkersPopups = dynamic(
   () => import('../../../sections/overview/extra/map/MapMarkersPopups')
 );
-const MapDeckglOverlay = dynamic(
-  () => import('../../../sections/overview/extra/map/MapDeckglOverlay')
-);
 const MapDynamicStyling = dynamic(
   () => import('../../../sections/overview/extra/map/dynamic-styling')
 );
@@ -212,15 +209,6 @@ export default function DemoMap() {
               <CardContent>
                 <MapWrapperStyle>
                   <MapZoomToBounds {...baseSettings} />
-                </MapWrapperStyle>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader title="Deckgl Overlay" />
-              <CardContent>
-                <MapWrapperStyle>
-                  <MapDeckglOverlay {...baseSettings} mapStyle={THEMES.light} />
                 </MapWrapperStyle>
               </CardContent>
             </Card>
